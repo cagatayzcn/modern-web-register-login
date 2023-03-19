@@ -1,18 +1,3 @@
-<?php
-include("baglanti.php");
-
-$query = "SELECT background FROM accounts WHERE sqlID = 1";
-if ($result = $db -> query($query))
-{
-  while ($row = $result -> fetch_assoc())
-  {
-    $background = $row["background"];
-  }
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
