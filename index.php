@@ -1,0 +1,98 @@
+<?php
+include("baglanti.php");
+
+$query = "SELECT background FROM accounts WHERE sqlID = 1";
+if ($result = $db -> query($query))
+{
+  while ($row = $result -> fetch_assoc())
+  {
+    $background = $row["background"];
+  }
+}
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>ZCN Games</title>
+  </head>
+<body>
+  <!--<button id="gece-gunduz-button"></button> # gece gündüz butonu -->
+  <header>
+    <h2 class="logo">ZCN GAMES</h2>
+    <nav class="mainNavbar">
+      <a href="#">Ana Sayfa</a>
+      <a href="#">Hakkında</a>
+      <a href="#">Servisler</a>
+      <a href="#">İletişim</a>
+      <button class="btnLogin">Giriş</button>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <span class="icon-close">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+
+    <div class="form-box-login">
+      <h2>Giriş</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" required>
+          <label for="email">E-posta</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-key"></i></span>
+          <input type="password" required>
+          <label for="password">Şifre</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">Beni hatırla</label>
+          <a href="#">Şifremi unuttum?</a>
+        </div>
+        <button type="submit" class="buton">Giriş</button>
+        <div class="login-register">
+          <p>Bir hesap sahibi değil misin? <a href="#" class="register-link">Hesap oluştur</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box-register">
+      <h2>Kayıt</h2>
+      <form action="#">
+      <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-user"></i></span>
+          <input type="text" required>
+          <label for="username">Kullanıcı Adı</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" required>
+          <label for="email">E-posta</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-key"></i></span>
+          <input type="password" required>
+          <label for="password">Şifre</label>
+        </div>
+        <div class="remember-forgot-register">
+          <label>Kaydol düğmesine tıklayarak, tüm Koşullarımızı, Gizlilik İlkemizi ve</br> Çerezler kabul etmiş olursun.</label>
+        </div>
+        <button type="submit" class="buton">Kaydol</button>
+        <div class="login-register">
+          <p>Zaten bir hesabın var mı? <a href="#" class="login-link">Giriş yap</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
