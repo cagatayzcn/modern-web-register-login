@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/cagatayzcn/modern-web-register-login">
-    <img src="https://cdn.discordapp.com/attachments/1088032259547861032/1088036286889197618/zcn-logo.png" alt="Logo" width="120" height="120>
+    <img src="https://cdn.discordapp.com/attachments/1088032259547861032/1088036286889197618/zcn-logo.png" alt="Logo" width="80" height="80>
   </a>
 
   <h3 align="center">Modern Web Register/Login UI</h3>
