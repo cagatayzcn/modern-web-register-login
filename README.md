@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/cagatayzcn">
     <img src="https://cdn.discordapp.com/attachments/1088032259547861032/1088036286889197618/zcn-logo.png" alt="Logo" width="80" height="80">
   </a>
 
