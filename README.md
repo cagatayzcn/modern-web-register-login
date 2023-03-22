@@ -61,7 +61,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 <!-- CONTACT -->
 ## Contact
 
-Çağatay Özcan - [@your_twitter](https://twitter.com/cagatayzcn) - cagatayozcank41@gmail.com
+Çağatay Özcan - [@cagatayzcn](https://twitter.com/cagatayzcn) - cagatayozcank41@gmail.com
 
 Project Link: [https://github.com/cagatayzcn/modern-web-register-login](https://github.com/cagatayzcn/modern-web-register-login)
 
