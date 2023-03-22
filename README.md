@@ -24,7 +24,7 @@
   <h3 align="center">Modern Web Register/Login UI</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Login Register template to jumpstart your projects!
     <br />
     <br />
     <br />
