@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][https://cdn.discordapp.com/attachments/784540442774601818/1088040704359530516/image.png]](https://cdn.discordapp.com/attachments/784540442774601818/1088040704359530516/image.png)
+[![Product Name Screen Shot][product-screenshot]](https://cdn.discordapp.com/attachments/784540442774601818/1088040704359530516/image.png)
 
 This interface is very useful and simple for beginners. Its dynamic transitions and smooth image make it stand out from other interfaces. I believe there are many reasons to use it.
 
@@ -100,7 +100,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/%C3%A7a%C4%9Fatay-%C3%B6zcan-b10b0b1a2/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://cdn.discordapp.com/attachments/784540442774601818/1088040704359530516/image.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
