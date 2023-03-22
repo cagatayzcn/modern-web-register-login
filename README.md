@@ -26,7 +26,6 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://codepen.io/Texa/full/PodygWm">[EN] View Demo</a>
